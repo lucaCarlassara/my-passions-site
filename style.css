@@ -15,6 +15,13 @@ body {
   max-width: 600px;
   margin: 0 auto;
   padding: 16px;
+  word-spacing: -0.02em;
+}
+
+.container p,
+.container li {
+  text-align: justify;
+  hyphens: auto;
 }
 
 h1, h2 {
