@@ -107,4 +107,26 @@ footer strong {
   color: #7b61ff;
 }
 
+#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: linear-gradient(135deg, #4da3ff, #7b61ff);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 18px;
+  cursor: pointer;
+  display: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: opacity 0.3s ease, transform 0.2s ease;
+  z-index: 1000;
+}
+
+#scrollTopBtn:hover {
+  transform: scale(1.1);
+}
+
 
